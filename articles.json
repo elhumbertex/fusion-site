@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-11-15",
+    "minutes": 7,
+    "thumb": "sol",
+    "gradient": "linear-gradient(135deg,#4C1D95,#7C3AED 55%,#E11D74)",
+    "es": {
+      "slug": "cien-anos-persiguiendo-al-sol",
+      "title": "Cien años persiguiendo al Sol",
+      "summary": "De una intuición en 1920 a récords de energía y miles de millones de dólares de inversión: la historia de la fusión nuclear en 7 momentos.",
+      "axes": ["Historia", "Política", "Industria", "Economía", "Educación"]
+    },
+    "en": {
+      "slug": "a-century-chasing-the-sun",
+      "title": "A Century Chasing the Sun",
+      "summary": "From a hunch in 1920 to energy records and billions of dollars in investment: the history of nuclear fusion in 7 moments.",
+      "axes": ["History", "Politics", "Industry", "Economics", "Education"]
+    }
+  }
+]
