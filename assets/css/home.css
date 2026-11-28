@@ -12,13 +12,11 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.08;margin:0;text-wrap:
 /* Barra */
 .bar{position:sticky;top:0;z-index:10;background:rgba(43,47,53,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .bar .inner{display:flex;align-items:center;gap:16px;min-height:96px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:clamp(26px,3.4vw,36px);line-height:1.1;color:rgb(240,130,25);text-decoration:none;margin-right:auto}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:clamp(26px,3.4vw,36px);line-height:1.1;color:rgb(243,148,14);text-decoration:none;margin-right:auto}
 .tabs{display:flex;gap:8px;flex-wrap:wrap}
-.tab{min-height:44px;padding:0 20px;display:inline-flex;align-items:center;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;background:rgb(240,130,25);color:#000;border:2px solid transparent;opacity:.75}
-.tab:hover{opacity:1}
-.tab[aria-current=page]{opacity:1;border-color:#fff}
-.tab.lang{background:transparent;color:var(--ink);border-color:var(--line);opacity:1}
-.tab.lang:hover{border-color:#fff}
+.tab{min-height:44px;padding:0 20px;display:inline-flex;align-items:center;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;background:rgb(243,148,14);color:#000;border:2px solid transparent}
+.tab:hover{border-color:#fff}
+.tab[aria-current=page]{border-color:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.25)}
 .tab:focus-visible,.card a:focus-visible,.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
 /* Portada */
@@ -61,7 +59,7 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.08;margin:0;text-wrap:
 .body p{margin:0;color:var(--ink2);font-size:16px}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--ink2)}
 .tag{font-weight:700;padding:3px 9px;border-radius:6px;background:var(--card2);border:1px solid var(--line);color:var(--lav)}
-.btn{margin-top:auto;align-self:flex-start;min-height:44px;display:inline-flex;align-items:center;gap:8px;padding:0 20px;border-radius:999px;background:rgb(240,130,25);color:#000;font-weight:700;font-size:15px;text-decoration:none;border:2px solid transparent}
+.btn{margin-top:auto;align-self:flex-start;min-height:44px;display:inline-flex;align-items:center;gap:8px;padding:0 20px;border-radius:999px;background:rgb(243,148,14);color:#000;font-weight:700;font-size:15px;text-decoration:none;border:2px solid transparent}
 .btn:hover{border-color:#fff}
 
 /* Filtros */

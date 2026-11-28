@@ -66,9 +66,8 @@ figure img{width:100%;height:auto;display:block;border-radius:10px}
 .aviso b{color:var(--ink)}
 .volver-bar{background:#2B2F35;border-bottom:1px solid var(--line)}
 .volver-bar .inner{max-width:820px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.volver-bar .marca{font-weight:800;font-size:20px;color:rgb(240,130,25);text-decoration:none}
+.volver-bar .marca{font-weight:800;font-size:20px;color:rgb(243,148,14);text-decoration:none}
 .volver-bar .acciones{display:flex;gap:8px;flex-wrap:wrap}
-.volver{min-height:44px;display:inline-flex;align-items:center;gap:8px;padding:0 20px;border-radius:999px;background:rgb(240,130,25);color:#000;font-weight:700;font-size:15px;text-decoration:none;border:2px solid transparent}
-.volver.lang{background:transparent;color:var(--ink);border-color:var(--line)}
+.volver{min-height:44px;display:inline-flex;align-items:center;gap:8px;padding:0 20px;border-radius:999px;background:rgb(243,148,14);color:#000;font-weight:700;font-size:15px;text-decoration:none;border:2px solid transparent}
 .volver:hover{border-color:#fff}
 .volver:focus-visible{outline:3px solid #FCD34D;outline-offset:2px}
